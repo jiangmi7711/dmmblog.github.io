@@ -15,10 +15,6 @@ body {
   font-size: 1.1rem;
 }
 
-#note {
-  color: #0085a1;;
-}
-
 header {
   grid-area: header;
 }
@@ -61,4 +57,8 @@ footer {
   width: 100px;
   height: 100px;
   border-radius: 50%;
+}
+
+blockquote {
+  color:rgb(13, 86, 95);
 }
