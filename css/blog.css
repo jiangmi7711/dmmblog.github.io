@@ -40,6 +40,15 @@ main {
   grid-gap: 10px;
 }
 
+.post p{
+  color:#01151a;
+  background-color: cadetblue;
+}
+
+.post h4{
+  color:rgb(82, 82, 235);
+}
+
 figcaption {
   color: slategray;
 }
