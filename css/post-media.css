@@ -1,0 +1,30 @@
+/* If small enough */
+@media(max-width:1024px) {
+  .container {
+    display: grid;
+    grid-template-rows: 150px 300px 600px 100px;
+    grid-template-columns: 100%;
+  }
+
+  body {
+    font-family: "Nunito", sans-serif;
+    font-size: 1rem;
+  }
+}
+
+@media(max-width:425px) {
+  .container {
+    display: grid;
+    grid-template-rows: 150px 300px 1000px 100px;
+    grid-template-columns: 100%;
+  }
+
+  .social i {
+    font-size: 1.5rem;
+    padding: 5px;
+  }
+  
+  footer { 
+    opacity: 0; 
+  }
+}
