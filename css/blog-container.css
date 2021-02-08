@@ -1,0 +1,14 @@
+.container {
+    display: grid;
+    background-color: #efecde;
+    grid-template-rows: 120px 300px 850px 100px;
+    grid-template-columns: 80%;
+    justify-content: center;
+    grid-template-areas: 
+    "header"
+    "main"
+    "post"
+    "footer"
+  }
+  
+  

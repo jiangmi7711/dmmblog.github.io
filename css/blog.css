@@ -1,15 +1,6 @@
-.container {
-  display: grid;
-  background-color: #efecde;
-  grid-template-rows: 120px 300px 800px 100px;
-  grid-template-columns: 80%;
-  justify-content: center;
-  grid-template-areas: 
-  "header"
-  "main"
-  "post"
-  "footer"
-}
+@import "btn.css";
+@import "blog-container.css";
+@import "blog-post.css";
 
 body {
   text-align: center;
@@ -33,22 +24,6 @@ main {
   grid-area: main;
 }
 
-.post {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
-  grid-gap: 10px;
-}
-
-.post p{
-  color:#01151a;
-  background-color: cadetblue;
-}
-
-.post h4{
-  color:rgb(82, 82, 235);
-}
-
 figcaption {
   color: slategray;
 }
@@ -58,5 +33,22 @@ img {
   height: 200px;
 }
 
+/* If small enough */
+@media(max-width:450px) {
+  img {
+    display: none;
+  }
+
+  figcaption { 
+    opacity: 0; 
+  }
+}
+
+@media(max-width:768px) {
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
 
 

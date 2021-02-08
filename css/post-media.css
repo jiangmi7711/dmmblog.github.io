@@ -2,10 +2,12 @@
 @media(max-width:1024px) {
   .container {
     display: grid;
-    grid-template-rows: 150px 300px 600px 100px;
+    grid-template-rows: 250px 300px 600px 100px;
     grid-template-columns: 100%;
   }
-
+  img {
+    display: none;
+  }
   body {
     font-family: "Nunito", sans-serif;
     font-size: 1rem;
@@ -19,7 +21,7 @@
 @media(max-width:425px) {
   .container {
     display: grid;
-    grid-template-rows: 150px 300px 1000px 100px;
+    grid-template-rows: 250px 300px 1000px 100px;
     grid-template-columns: 100%;
   }
 
